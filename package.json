@@ -1,5 +1,5 @@
 {
-  "homepage": "http://invent.codingee.com"
+  "homepage": "http://invent.codingee.com",
   "name": "codingee-developers",
   "version": "0.1.0",
   "private": true,
@@ -44,7 +44,7 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
     ]
   }
 }
