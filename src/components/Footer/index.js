@@ -115,10 +115,13 @@ const Footer = ({ t }) => {
             >
               <S.NavLink to="/">
                 <S.LogoContainer>
-                <Col>
-                  <SvgIcon src="logo.svg" aria-label="homepage" />
-                  <p>by <a href="https://codingee.com/" target="_blank">codingee</a></p>
-                  </Col>
+                  <Row>
+                  <SvgIcon src="logo2.svg" aria-label="homepage"/>
+                  <Col>
+                    <SvgIcon src="logo.svg" aria-label="homepage"/>
+                    <p>by <a rel="noreferrer" href="https://codingee.com/" target="_blank">codingee</a></p>
+                    </Col>
+                    </Row>
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
